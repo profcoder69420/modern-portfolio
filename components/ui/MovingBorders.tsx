@@ -22,11 +22,12 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as: string;
+  // as: string;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
+  style?: React.CSSProperties
   // [key: string]: obej;
 }) {
   return (
